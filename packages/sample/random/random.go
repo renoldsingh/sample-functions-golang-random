@@ -28,6 +28,6 @@ type Response struct {
 
 func Main(in Request) (*Response, error) {
 	return &Response{
-		Body: fmt.Sprintf("Hello there, your random number is %d", rand.Intn(upperBound)),
+		Body: fmt.Sprintf("Hello there dude, your random number is %d", rand.Intn(upperBound)),
 	}, nil
 }
